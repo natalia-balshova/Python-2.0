@@ -3,10 +3,10 @@
 # Также нельзя использовать циклы.
 
 def sum_new(a,b):  # название изменено, учитывая существование функции sum
-    if a == 0:
-        return b
+    # if a == 0:
+    #     return b
     if b == 0:
         return a
     return sum_new(a+1,b-1)
 
-print(sum_new(10,15))
+print(sum_new(0,15))
